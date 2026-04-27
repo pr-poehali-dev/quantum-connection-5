@@ -18,21 +18,20 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="https://cdn.poehali.dev/projects/9dc5de98-f55f-45cf-9cce-d454ca418311/files/8384c55e-07e2-4c27-ad53-9aca4282b4a4.jpg"
-            alt="CS:GO Cases Collection"
+            src="/images/spiral-circles.jpg"
+            alt="Abstract spiral circles"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/40" />
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest">
-        Коллекция кейсов
+      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
+        Анатомия возможностей
       </h3>
 
       <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждый кейс — шанс на легендарный скин. Открывай, торгуй и собирай
-        коллекцию лучшего оружия в CS:GO.
+        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
+        литься в неожиданные паттерны, заставляя листать дальше.
       </p>
     </div>
   );
