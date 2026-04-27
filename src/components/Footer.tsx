@@ -30,6 +30,12 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Команда</h3>
+                <p className="text-white text-sm sm:text-base">Дроздов</p>
+                <p className="text-white text-sm sm:text-base">Губский</p>
+                <p className="text-white text-sm sm:text-base">Голенко</p>
+              </div>
+              <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Информация</h3>
                 <a
                   href="#"
